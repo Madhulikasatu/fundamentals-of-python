@@ -1,0 +1,51 @@
+Write a program to perform all the arithmetic operation including floor division by using a function.
+
+Input & Output Format:
+
+Input consists of two integers. 
+
+Output consists of 6 integers including add, sub, mul, mod, rem, floor division.
+
+Sample Input :
+
+5
+
+2
+
+Sample Output:
+
+7
+
+3
+
+10
+
+2.5
+
+2
+
+1
+
+
+program:
+def sum(x,y):
+    print(x+y)
+def sub(x,y):
+    print(x-y)
+def mul(x,y):
+    print(x*y)
+def mod(x,y):
+    print(x/y)
+def flr(x,y):
+    print(x//y)
+def rem(x,y):
+    print(x%y)
+x=int(input())
+y=int(input())
+print(sum(x,y))
+print(sub(x,y))
+print(mul(x,y))
+print(mod(x,y))
+print(flr(x,y))
+print(rem(x,y))
+
